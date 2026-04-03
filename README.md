@@ -1,9 +1,10 @@
 # Fullstack Portfolio Dummy Projects
 
-Repository ini berisi kumpulan ide dan studi kasus dummy project untuk portofolio **Fullstack Website Developer**.  
-Tujuan dari repository ini adalah menjadi catatan roadmap project yang akan saya bangun satu per satu di masa depan.
+Repository ini berisi kumpulan ide, studi kasus, dan flow sistem untuk dummy project portofolio **Fullstack Website Developer**.
 
-Project-project di sini disusun bukan hanya untuk latihan coding, tetapi untuk menampilkan kemampuan membangun aplikasi web yang benar-benar menyelesaikan masalah bisnis.
+Tujuan utama repository ini adalah menjadi **catatan pengembangan jangka panjang**, agar ide project tidak hilang dan nantinya bisa dibangun satu per satu menjadi aplikasi nyata.
+
+Project-project di repository ini dirancang bukan hanya sebagai latihan coding, tetapi sebagai simulasi produk digital yang benar-benar menyelesaikan masalah bisnis.
 
 ---
 
@@ -11,42 +12,61 @@ Project-project di sini disusun bukan hanya untuk latihan coding, tetapi untuk m
 
 Repository ini dibuat untuk:
 
-- menyimpan daftar ide project portofolio
+- menyimpan ide project portofolio fullstack
 - mendokumentasikan studi kasus sebelum project dikembangkan
-- menjadi acuan saat mulai coding di kemudian hari
-- membangun portofolio fullstack yang kuat dan relevan dengan kebutuhan industri
+- menjadi roadmap pengembangan project jangka panjang
+- membantu proses perancangan database, API, dan flow aplikasi
+- membangun portofolio yang relevan dengan kebutuhan industri
 
 ---
 
 ## Fokus Pengembangan
 
-Saya ingin membangun project yang menunjukkan kemampuan di area berikut:
+Melalui project-project ini, saya ingin menunjukkan kemampuan pada area berikut:
 
 - frontend modern dan responsive
-- backend dan API development
+- backend development dan REST API
 - authentication dan authorization
-- role-based access
+- role-based access control
 - business logic yang kompleks
 - dashboard admin
-- reporting dan data visualization
-- relasi database
-- deployment dan struktur project yang scalable
+- reporting dan analytics
+- relational database design
+- scalable project structure
+- deployment workflow
+
+---
+
+## Struktur Umum Setiap Project
+
+Setiap project idealnya akan memiliki:
+
+- landing page / overview
+- authentication
+- dashboard admin
+- CRUD utama
+- role management
+- backend API
+- relational database
+- laporan / analytics
+- responsive design
+- deployment
 
 ---
 
 # Daftar Dummy Project
 
 ## 1. PayFlow HRIS
-**Kategori:** HRIS / Internal Company System
+**Kategori:** HRIS / Payroll / Attendance System
 
 ### Deskripsi
-Sistem HRIS berbasis web untuk mengelola absensi, cuti, lembur, payroll, dan slip gaji digital dalam satu platform.
+Sistem HRIS berbasis web untuk mengelola absensi, cuti, lembur, payroll, dan slip gaji digital dalam satu platform terintegrasi.
 
 ### Latar Belakang
-Banyak perusahaan masih mengelola absensi dan payroll secara manual menggunakan spreadsheet, sehingga rawan salah hitung, lambat, dan sulit dipantau.
+Banyak perusahaan masih mengelola absensi dan payroll secara manual menggunakan spreadsheet. Proses ini rawan salah hitung, memakan waktu, dan sulit dipantau.
 
 ### Tujuan
-Membangun sistem yang membantu tim HR mengotomatisasi proses administrasi karyawan.
+Membangun sistem yang membantu tim HR mengotomatisasi administrasi karyawan.
 
 ### Fitur Utama
 - Login multi-role: HR, Manager, Employee
@@ -67,7 +87,7 @@ Membangun sistem yang membantu tim HR mengotomatisasi proses administrasi karyaw
 - Prisma ORM
 
 ### Nilai Portofolio
-Project ini menunjukkan kemampuan membangun sistem internal perusahaan dengan business logic yang kompleks.
+Menunjukkan kemampuan membangun sistem internal perusahaan dengan business logic yang kompleks.
 
 ### Status
 `Planned`
@@ -89,7 +109,7 @@ Membangun sistem inventory yang membantu operasional gudang dan admin memantau s
 ### Fitur Utama
 - Master data produk
 - Kategori dan supplier
-- Barang masuk dan keluar
+- Barang masuk dan barang keluar
 - Mutasi antar gudang
 - Alert stok minimum
 - Riwayat transaksi stok
@@ -105,7 +125,7 @@ Membangun sistem inventory yang membantu operasional gudang dan admin memantau s
 - Recharts
 
 ### Nilai Portofolio
-Project ini menunjukkan kemampuan membuat dashboard operasional, data table kompleks, dan transaksi stok.
+Menunjukkan kemampuan membuat dashboard operasional, data table kompleks, dan transaksi stok.
 
 ### Status
 `Planned`
@@ -142,7 +162,7 @@ Membangun sistem CRM sederhana untuk membantu tim sales bekerja lebih terstruktu
 - Prisma
 
 ### Nilai Portofolio
-Project ini menunjukkan kemampuan membangun workflow sales dan dashboard KPI.
+Menunjukkan kemampuan membangun workflow sales dan dashboard KPI.
 
 ### Status
 `Planned`
@@ -177,7 +197,7 @@ Membangun platform reservasi yang memudahkan pelanggan memilih slot dan memudahk
 - Node.js
 
 ### Nilai Portofolio
-Project ini menunjukkan kemampuan membuat calendar logic dan booking workflow.
+Menunjukkan kemampuan membuat calendar logic dan booking workflow.
 
 ### Status
 `Planned`
@@ -215,7 +235,7 @@ Membangun aplikasi e-commerce yang terhubung dengan sistem admin operasional.
 - Payment gateway mock
 
 ### Nilai Portofolio
-Project ini menunjukkan kemampuan membangun aplikasi customer-facing dan admin system sekaligus.
+Menunjukkan kemampuan membangun aplikasi customer-facing dan admin system sekaligus.
 
 ### Status
 `Planned`
@@ -251,7 +271,7 @@ Membangun sistem support yang memudahkan user membuat tiket dan tim support meng
 - Prisma
 
 ### Nilai Portofolio
-Project ini menunjukkan kemampuan membangun workflow ticket lifecycle dan dashboard operasional.
+Menunjukkan kemampuan membangun workflow ticket lifecycle dan dashboard operasional.
 
 ### Status
 `Planned`
@@ -287,7 +307,7 @@ Membangun sistem finance dashboard yang membantu owner dan admin keuangan memant
 - Prisma
 
 ### Nilai Portofolio
-Project ini menunjukkan kemampuan menangani data finansial, dokumen PDF, dan reporting.
+Menunjukkan kemampuan menangani data finansial, dokumen PDF, dan reporting.
 
 ### Status
 `Planned`
@@ -322,7 +342,7 @@ Membangun LMS yang terintegrasi untuk memudahkan student, instructor, dan admin.
 - Prisma
 
 ### Nilai Portofolio
-Project ini menunjukkan kemampuan membangun aplikasi dengan banyak role dan alur pembelajaran.
+Menunjukkan kemampuan membangun aplikasi dengan banyak role dan alur pembelajaran.
 
 ### Status
 `Planned`
@@ -357,7 +377,7 @@ Membangun aplikasi POS yang efisien untuk operasional toko.
 - Prisma
 
 ### Nilai Portofolio
-Project ini menunjukkan kemampuan membangun sistem transaksi cepat dan operasional retail.
+Menunjukkan kemampuan membangun sistem transaksi cepat dan operasional retail.
 
 ### Status
 `Planned`
@@ -393,10 +413,348 @@ Membangun fondasi SaaS multi-tenant dengan role management dan subscription plan
 - Prisma
 
 ### Nilai Portofolio
-Project ini menunjukkan kemampuan membangun arsitektur sistem yang lebih advance dan scalable.
+Menunjukkan kemampuan membangun arsitektur sistem yang lebih advance dan scalable.
 
 ### Status
 `Planned`
+
+---
+
+# Flow Sistem per Project
+
+## 1. PayFlow HRIS — Flow Sistem
+
+### Actor
+- Employee
+- Manager
+- HR/Admin
+
+### Flow Utama
+1. Employee login ke sistem.
+2. Employee melakukan clock in saat mulai kerja.
+3. Sistem mencatat waktu kehadiran.
+4. Jika employee ingin cuti / izin, employee membuat request.
+5. Manager menerima notifikasi request cuti / izin.
+6. Manager melakukan approval atau rejection.
+7. Employee melakukan clock out saat selesai kerja.
+8. HR memantau data absensi, cuti, dan lembur.
+9. Pada akhir periode, sistem menghitung payroll berdasarkan:
+   - kehadiran
+   - keterlambatan
+   - lembur
+   - tunjangan
+   - potongan
+10. HR melakukan review payroll.
+11. Sistem menghasilkan slip gaji digital.
+12. Employee dapat melihat dan mengunduh slip gaji.
+
+### Flow Pengembangan
+- Authentication
+- Role management
+- Attendance module
+- Leave request module
+- Approval workflow
+- Payroll calculation engine
+- Payslip PDF export
+- Reporting dashboard
+
+---
+
+## 2. StockSphere — Flow Sistem
+
+### Actor
+- Admin Gudang
+- Purchasing
+- Owner
+
+### Flow Utama
+1. Admin login ke sistem inventory.
+2. Admin menambahkan master data produk.
+3. Admin menambahkan supplier.
+4. Saat barang datang, admin input barang masuk.
+5. Sistem menambahkan jumlah stok secara otomatis.
+6. Saat barang dikirim / dijual, admin input barang keluar.
+7. Sistem mengurangi stok secara otomatis.
+8. Jika ada perpindahan lokasi, admin membuat mutasi antar gudang.
+9. Sistem mencatat histori transaksi stok.
+10. Jika stok mencapai batas minimum, sistem menampilkan alert.
+11. Owner melihat dashboard stok, barang terlaris, dan stok menipis.
+12. Admin export laporan stok bila diperlukan.
+
+### Flow Pengembangan
+- Product module
+- Supplier module
+- Stock in / stock out transaction
+- Warehouse mutation
+- Stock alert
+- Reporting
+- Dashboard analytics
+
+---
+
+## 3. LeadBridge CRM — Flow Sistem
+
+### Actor
+- Sales
+- Sales Manager
+- Admin
+
+### Flow Utama
+1. Sales login ke sistem.
+2. Sales menambahkan lead baru.
+3. Lead masuk ke status awal: `New Lead`.
+4. Sales melakukan follow-up ke prospek.
+5. Sales memperbarui status lead:
+   - Contacted
+   - Qualified
+   - Negotiation
+   - Won
+   - Lost
+6. Setiap aktivitas follow-up dicatat di timeline lead.
+7. Jika perlu, lead dapat di-assign ke sales lain.
+8. Manager memantau pipeline penjualan dari dashboard.
+9. Sistem menampilkan conversion rate dan performa sales.
+10. Lead yang berhasil closing masuk ke data customer.
+
+### Flow Pengembangan
+- Authentication
+- Lead CRUD
+- Pipeline management
+- Activity timeline
+- Follow-up reminder
+- Assignment flow
+- KPI dashboard
+
+---
+
+## 4. BookEase — Flow Sistem
+
+### Actor
+- Customer
+- Admin
+- Owner
+
+### Flow Utama
+1. Customer membuka halaman booking.
+2. Customer memilih layanan yang diinginkan.
+3. Sistem menampilkan slot jadwal yang tersedia.
+4. Customer memilih tanggal dan jam.
+5. Sistem memvalidasi apakah slot masih tersedia.
+6. Customer mengisi data booking.
+7. Booking disimpan ke database.
+8. Sistem mengirim notifikasi booking ke customer dan admin.
+9. Admin melihat booking baru di dashboard.
+10. Admin dapat mengubah status booking:
+   - Pending
+   - Confirmed
+   - Completed
+   - Cancelled
+11. Customer dapat melihat riwayat booking.
+12. Admin memantau seluruh jadwal reservasi.
+
+### Flow Pengembangan
+- Service listing
+- Availability engine
+- Booking form
+- Schedule dashboard
+- Booking status
+- Notification system
+- Booking history
+
+---
+
+## 5. OrderNest Commerce — Flow Sistem
+
+### Actor
+- Customer
+- Admin Toko
+- Owner
+
+### Flow Utama
+1. Customer membuka website toko.
+2. Customer melihat katalog produk.
+3. Customer memilih produk dan menambahkannya ke cart.
+4. Customer melakukan checkout.
+5. Sistem membuat order baru dengan status `Pending`.
+6. Customer menyelesaikan pembayaran.
+7. Admin menerima order baru di dashboard.
+8. Admin memverifikasi pembayaran.
+9. Status order berubah menjadi:
+   - Paid
+   - Processing
+   - Shipped
+   - Completed
+10. Sistem memperbarui stok produk.
+11. Customer dapat melihat status pesanan.
+12. Owner memantau penjualan melalui dashboard.
+
+### Flow Pengembangan
+- Product catalog
+- Cart
+- Checkout
+- Payment flow
+- Order management
+- Stock sync
+- Sales dashboard
+
+---
+
+## 6. SupportDesk Pro — Flow Sistem
+
+### Actor
+- User / Employee / Customer
+- Support Agent
+- Admin
+
+### Flow Utama
+1. User login ke sistem support.
+2. User membuat tiket baru.
+3. User memilih kategori dan prioritas issue.
+4. Sistem memberikan nomor tiket otomatis.
+5. Tiket masuk ke dashboard support agent.
+6. Admin atau sistem meng-assign tiket ke agent.
+7. Agent memproses tiket dan memperbarui status:
+   - Open
+   - In Progress
+   - Resolved
+   - Closed
+8. Agent dapat menambahkan internal note.
+9. User dapat melihat progres tiket dan memberi komentar tambahan.
+10. Setelah issue selesai, tiket ditutup.
+11. Admin melihat laporan SLA dan performa penyelesaian tiket.
+
+### Flow Pengembangan
+- Ticket submission
+- Category & priority
+- Assignment system
+- Status lifecycle
+- Comment system
+- Internal note
+- SLA dashboard
+
+---
+
+## 7. FinTrack Office — Flow Sistem
+
+### Actor
+- Finance Admin
+- Owner
+- Client / Customer
+
+### Flow Utama
+1. Finance admin login ke dashboard.
+2. Admin membuat invoice baru untuk client.
+3. Sistem menghasilkan nomor invoice.
+4. Invoice dikirim atau diunduh dalam bentuk PDF.
+5. Client melakukan pembayaran.
+6. Admin memperbarui status invoice:
+   - Unpaid
+   - Partial
+   - Paid
+7. Admin mencatat pengeluaran operasional.
+8. Sistem menghitung pemasukan dan pengeluaran.
+9. Dashboard menampilkan cashflow secara ringkas.
+10. Owner memantau invoice jatuh tempo dan pengeluaran bulanan.
+
+### Flow Pengembangan
+- Invoice CRUD
+- Payment status
+- Expense tracking
+- PDF export
+- Cashflow report
+- Finance dashboard
+
+---
+
+## 8. SkillForge LMS — Flow Sistem
+
+### Actor
+- Student
+- Instructor
+- Admin
+
+### Flow Utama
+1. Student login ke platform.
+2. Student melihat daftar course.
+3. Student mendaftar atau mengakses course.
+4. Student membuka modul pembelajaran.
+5. Student menonton video / membaca materi.
+6. Setelah modul selesai, student mengerjakan quiz.
+7. Sistem menyimpan skor dan progress belajar.
+8. Jika semua modul selesai, sistem menandai course sebagai completed.
+9. Sistem menghasilkan sertifikat digital.
+10. Instructor memantau progress dan hasil quiz student.
+11. Admin mengelola course, user, dan materi pembelajaran.
+
+### Flow Pengembangan
+- Course management
+- Enrollment flow
+- Lesson module
+- Quiz system
+- Progress tracking
+- Certificate generator
+- Instructor dashboard
+
+---
+
+## 9. QuickSell POS — Flow Sistem
+
+### Actor
+- Kasir
+- Admin
+- Owner
+
+### Flow Utama
+1. Kasir login ke sistem POS.
+2. Kasir memilih produk yang dibeli customer.
+3. Sistem menghitung total belanja.
+4. Kasir menambahkan diskon jika ada.
+5. Customer melakukan pembayaran.
+6. Sistem menyimpan transaksi.
+7. Stok barang berkurang secara otomatis.
+8. Sistem mencetak struk.
+9. Transaksi masuk ke riwayat penjualan.
+10. Owner melihat laporan penjualan harian / bulanan.
+11. Admin mengelola data produk, kategori, dan user kasir.
+
+### Flow Pengembangan
+- Product setup
+- POS transaction
+- Payment flow
+- Receipt generation
+- Stock reduction
+- Sales report
+- Owner dashboard
+
+---
+
+## 10. TenantCore SaaS — Flow Sistem
+
+### Actor
+- Super Admin
+- Tenant Admin
+- Tenant User
+
+### Flow Utama
+1. Tenant mendaftar ke platform.
+2. Sistem membuat akun tenant baru.
+3. Tenant admin login ke dashboard tenant.
+4. Tenant admin mengundang user ke dalam tenant.
+5. Tenant admin mengatur role dan permission.
+6. Tenant menggunakan fitur berdasarkan paket subscription.
+7. Sistem memisahkan data tiap tenant.
+8. Super admin memantau seluruh tenant dari panel pusat.
+9. Jika subscription berubah, akses fitur tenant ikut berubah.
+10. Super admin memantau billing, plan, dan aktivitas tenant.
+
+### Flow Pengembangan
+- Tenant registration
+- Tenant isolation
+- User invitation
+- Role & permission
+- Subscription logic
+- Feature gating
+- Super admin dashboard
 
 ---
 
@@ -417,30 +775,145 @@ Agar pengembangan lebih terarah, berikut urutan project yang paling layak dibang
 
 ---
 
-# Catatan Pengembangan
+# Roadmap Pengembangan
 
-Setiap project nantinya idealnya memiliki:
+## Phase 1 — Fundamental Business Apps
+Project yang dibangun untuk menunjukkan skill dasar fullstack dan business workflow.
 
-- landing page / overview
-- authentication
-- dashboard admin
-- CRUD utama
-- role management
-- API backend
-- database relational
-- laporan / analytics
-- responsive design
-- deployment
+- PayFlow HRIS
+- StockSphere
+- LeadBridge CRM
+
+## Phase 2 — Transaction & Operations
+Project yang berfokus pada transaksi, operasional, dan dashboard admin.
+
+- OrderNest Commerce
+- SupportDesk Pro
+- BookEase
+- QuickSell POS
+
+## Phase 3 — Advanced Systems
+Project yang menunjukkan kompleksitas fitur dan arsitektur sistem.
+
+- FinTrack Office
+- SkillForge LMS
+- TenantCore SaaS
 
 ---
 
-# Target Akhir
+# Flow Umum Pengerjaan Project
 
-Target akhir dari repository ini adalah membangun portofolio fullstack developer yang berisi project-project dengan studi kasus nyata, struktur sistem yang matang, dan relevan dengan kebutuhan bisnis modern.
+Bagian ini adalah alur kerja yang bisa digunakan setiap kali mulai membangun salah satu project di atas.
 
-Repository ini akan terus diperbarui seiring project mulai dikerjakan satu per satu.
+## 1. Planning
+- Tentukan problem utama
+- Tentukan target user
+- Tentukan fitur inti
+- Tentukan role user
+
+## 2. System Design
+- Buat entity / database schema
+- Tentukan relasi tabel
+- Buat flow bisnis utama
+- Tentukan API endpoint
+
+## 3. UI/UX Design
+- Buat wireframe sederhana
+- Susun halaman utama
+- Susun dashboard admin
+- Tentukan komponen reusable
+
+## 4. Development
+- Setup project
+- Setup authentication
+- Buat database schema
+- Bangun backend API
+- Bangun frontend
+- Integrasi frontend dan backend
+
+## 5. Testing
+- Test alur user
+- Test validasi form
+- Test role & permission
+- Test business logic
+- Test responsive layout
+
+## 6. Deployment
+- Deploy frontend
+- Deploy database
+- Setup environment variable
+- Final testing production
+
+## 7. Documentation
+- Update README
+- Tambahkan screenshot
+- Tambahkan fitur yang sudah selesai
+- Tambahkan changelog kecil jika perlu
+
+---
+
+# Template Pengembangan Project Baru
+
+Gunakan template ini saat menambah project baru ke repository.
+
+## Nama Project
+[Tulis nama project]
+
+### Kategori
+[Tulis kategori project]
+
+### Deskripsi
+[Tulis ringkasan singkat project]
+
+### Latar Belakang
+[Tulis masalah utama yang ingin diselesaikan]
+
+### Tujuan
+[Tulis tujuan sistem]
+
+### Actor
+- [Role 1]
+- [Role 2]
+- [Role 3]
+
+### Fitur Utama
+- [Fitur 1]
+- [Fitur 2]
+- [Fitur 3]
+
+### Flow Utama
+1. [Langkah 1]
+2. [Langkah 2]
+3. [Langkah 3]
+4. [Langkah 4]
+5. [Langkah 5]
+
+### Flow Pengembangan
+- Authentication
+- Dashboard
+- CRUD utama
+- Business logic
+- Reporting
+- Deployment
+
+### Tech Stack
+- Frontend:
+- Backend:
+- Database:
+- Deployment:
+
+### Status
+`Planned`
+
+---
+
+# Catatan Akhir
+
+Repository ini akan menjadi pusat dokumentasi dummy project fullstack yang nantinya dikembangkan satu per satu menjadi aplikasi nyata.
+
+Dengan dokumentasi ini, proses pengembangan di masa depan diharapkan menjadi lebih terarah, lebih cepat, dan tidak kehilangan konteks ide awal dari masing-masing project.
 
 ---
 
 ## Author
-Portfolio roadmap by **Fullstack Website Developer**
+**Fullstack Website Developer Portfolio Roadmap**
